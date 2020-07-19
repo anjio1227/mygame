@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!--规则部分-->
+    <header>
+        考考你的反应力！点击一个彩色方块得5分，看看你在30秒内能得多少分吧！
+    </header>
+    <!--时间和分数-->
+    <div class="box">
+    <p>
+        剩余<input type="text" value="30" id="timeInp">秒
+        共计<input type="text" value="0" id="scoreInp">分
+    </p>
+    </div>
+    <!--表格-->    
+        <table id="table">
+            <tr>
+                <td><img src="img1.jpg"></td>
+                <td><img src="img2.jpg"></td>
+                <td><img src="img3.jpg"></td>
+                <td><img src="img4.jpg"></td>
+            </tr>
+            <tr>
+                <td><img src="img5.jpg"></td>
+                <td><img src="img6.jpg"></td>
+                <td><img src="img7.jpg"></td>
+                <td><img src="img8.jpg"></td>
+            </tr>
+            <tr>
+                <td><img src="img9.jpg"></td>
+                <td><img src="img10.jpg"></td>
+                <td><img src="img11.jpg"></td>
+                <td><img src="img12.jpg"></td>
+            </tr>
+            <tr>
+                <td><img src="img13.jpg"></td>
+                <td><img src="img14.jpg"></td>
+                <td><img src="img15.jpg"></td>
+                <td><img src="img16.jpg"></td>
+            </tr>   
+        </table>
+    <!--开始按钮-->
+        <p>
+        <button id="begin">开始</button>
+        </p>
+    <!--总分弹窗-->
+        <div class="msg" id="msg">总共获得<span id="msg_score">0</span>分</div>
+    <script src="script.js"></script>
+</body>
+</html>
